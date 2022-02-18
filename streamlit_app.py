@@ -9,8 +9,8 @@ import streamlit as st
 简政是一个提供全面政策信息、提供专业政策建议的一体化平台。
 我们的愿景是“让数据意识普及，让智能工具惠民，让政府信息更加亲民”
 """
-if st.button('Say hello'):
-   st.write('Why hello there')
+if st.button('愿景'):
+   st.write('让数据意识普及，让智能工具惠民，让政府信息更加亲民')
 
 
 

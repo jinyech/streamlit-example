@@ -10,5 +10,6 @@ import streamlit as st
 我们的愿景是“让数据意识普及，让智能工具惠民，让政府信息更加亲民”
 """
 
-
+title = st.text_input('Movie title', 'Life of Brian')
+st.write('The current movie title is', title)
 

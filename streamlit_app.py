@@ -11,8 +11,9 @@ import streamlit as st
 """
 a=1
 b=2
+c=a+b
 if st.button('愿景'):
-   st.write(a+b)
+   st.write(c)
 
 
 

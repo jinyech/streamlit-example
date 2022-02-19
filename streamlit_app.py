@@ -9,12 +9,6 @@ import streamlit as st
 简政是一个提供全面政策信息、提供专业政策建议的一体化平台。
 我们的愿景是“让数据意识普及，让智能工具惠民，让政府信息更加亲民”
 """
-a=1
-b=2
-c=a+b
-if st.button('愿景'):
-   st.write(c)
-
-
-
-
+wordword=open('浙江省保障性住房解疑.txt','r')
+if st.button('保障性住房解疑'):
+   st.write('wordword')

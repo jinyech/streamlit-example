@@ -11,4 +11,4 @@ import streamlit as st
 """
 wordword=open('浙江省保障性住房解疑.txt','r')
 if st.button('保障性住房解疑'):
-   st.write('wordword')
+   st.write(wordword)

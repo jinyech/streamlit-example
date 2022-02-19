@@ -12,5 +12,7 @@ import json
 wordword=open("浙江省保障性住房解疑.txt","r",encoding='utf-8').read()
 if st.button('保障性住房解疑'):
    st.write(wordword)
-o=json.load('浙江省人民政府-住房搜索结果.json','r')
-   st.write(o)
+o=open('浙江省人民政府-住房搜索结果.json','r',encoding='utf-8').read()
+o=json.load(o)
+
+st.dataframe(o)

@@ -10,5 +10,5 @@ import streamlit as st
 我们的愿景是“让数据意识普及，让智能工具惠民，让政府信息更加亲民”
 """
 if st.button('保障性住房解疑'):
-   st.write(wordword)
+    st.write('wordword')
 
